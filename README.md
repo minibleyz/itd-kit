@@ -1,34 +1,35 @@
-# itd-kit
+<p align="center">
+  <img src="https://img.shields.io/badge/itd--kit-v1.0.0-6366f1?style=for-the-badge&labelColor=151518" alt="itd-kit">
+  <img src="https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&labelColor=151518" alt="React 18">
+  <img src="https://img.shields.io/badge/Vite-6-646cff?style=for-the-badge&logo=vite&labelColor=151518" alt="Vite 6">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge&labelColor=151518" alt="MIT">
+</p>
 
-Зависимости
-npm install react react-dom @vitejs/plugin-react vite
+<h1 align="center">itd-kit</h1>
 
-uikit/
-├── index.js
-├── tokens.js
-├── ThemeContext.js
-├── ThemeToggle.jsx
-├── Avatar.jsx
-├── Username.jsx
-├── Button.jsx
-├── ActionButton.jsx
-├── GlassBox.jsx
-├── Spoiler.jsx
-├── Skeleton.jsx
-├── Modal.jsx
-├── Toast.jsx
-├── CenterToast.jsx
-├── Tooltip.jsx
-├── DropdownMenu.jsx
-├── BottomNav.jsx
-├── ProgressBar.jsx
-├── ColorIndicator.jsx
-├── TextFormat.jsx
-├── Post.jsx
-├── Divider.jsx
-├── Spinner.jsx
-├── Link.jsx
-├── Form.jsx
-├── RightSidebar.jsx
-├── Carousel.jsx
-└── PostImage.jsx
+<p align="center">
+  React UI-kit с inline-стилями, токенами темы и нулевым CSS.<br>
+  27 компонентов. Никаких внешних стилей — всё в JSX.
+</p>
+
+---
+
+## Что это
+
+**itd-kit** — компонентная библиотека для React, вдохновлённая интерфейсами социальных сетей. Все стили задаются прямо в JSX через inline-объекты, цвета управляются через дизайн-токены с поддержкой светлой и тёмной темы.
+
+**Ключевые принципы:**
+
+- Нулевой CSS — ни одного внешнего стилевого файла
+- Дизайн-токены — единый источник цветов и размеров
+- Провайдер темы — мгновенное переключение light / dark
+- Mobile-first — адаптивная вёрстка из коробки
+- Копируй и используй — каждый компонент самодостаточен
+
+## Установка
+
+```bash
+git clone https://github.com/minibleyz/itd-kit.git
+cd itd-kit
+npm install
+npm run dev
