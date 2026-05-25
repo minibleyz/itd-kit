@@ -1,3 +1,4 @@
+import React from 'react'
 import { ThemeProvider, useTheme } from './uikit/ThemeContext'
 import ThemeToggle from './uikit/ThemeToggle'
 import Avatar from './uikit/Avatar'
