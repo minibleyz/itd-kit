@@ -172,9 +172,9 @@ function Demo() {
         {/* Правая колонка */}
         <RightSidebar style={{ display: window.innerWidth >= 1174 ? 'flex' : 'none' }}>
           <TrendBlock title="Тренды" trends={[
-            { tag: '#DeepSeek', count: '12.4K постов' },
-            { tag: '#WebArchive', count: '5.8K постов' },
-            { tag: '#CSS', count: '2.1K постов' },
+            { tag: '#Демо1', count: '12.4K постов' },
+            { tag: '#Демо2', count: '5.8K постов' },
+            { tag: '#Демо3', count: '2.1K постов' },
           ]} />
           <div style={{ fontSize: 13, color: tokens.textSecondary }}>
             <span>© 2026 UI Kit</span>
